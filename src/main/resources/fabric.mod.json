@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "ancient_forgotten",
+	"version": "${version}",
+	"name": "Ancient and Forgotten",
+	"description": "This mod brings old and scrapped Minecraft features back, while trying to make newer features more useful.",
+	"authors": [
+		"Flatkat"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "ARR",
+	"icon": "assets/ancient_forgotten/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.flatkat.ancient_forgotten.AncientAndForgotten"
+		],
+		"client": [
+			"net.flatkat.ancient_forgotten.AncientAndForgottenClient"
+		],
+		"fabric-datagen": [
+			"net.flatkat.ancient_forgotten.AncientAndForgottenDataGenerator"
+		]
+	},
+	"mixins": [
+		"ancient_forgotten.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
