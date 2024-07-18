@@ -24,7 +24,5 @@ public class ModItems {
 
     public static void registerModItems(){
         AncientAndForgotten.LOGGER.info("Registering Mod Items for " + AncientAndForgotten.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
 }
