@@ -2,8 +2,9 @@
 
   "item.ancient_forgotten.ruby": "Ruby",
   "block.ancient_forgotten.unknown_block": "Unknown",
-  "itemgroup.ancient_forgotten": "Ancient and Forgotten"
+  "itemgroup.ancient_forgotten": "Ancient and Forgotten",
 
+  "block.ancient_forgotten.rose": "Rose"
 
 
 }
