@@ -14,9 +14,7 @@ public class ModItemGroups {
     public static final ItemGroup ANCIENT_FORGOTTEN_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(AncientAndForgotten.MOD_ID, "ancient_forgotten"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ancient_forgotten"))
-                    .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.RUBY);
-                        entries.add(ModBlocks.UNKNOWN_BLOCK);
+                    .icon(() -> new ItemStack(ModBlocks.ROSE)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.ROSE);
                     }).build());
 
