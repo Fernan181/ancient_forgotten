@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                         entries.add(ModBlocks.UNKNOWN_BLOCK);
+                        entries.add(ModBlocks.ROSE);
                     }).build());
 
 
