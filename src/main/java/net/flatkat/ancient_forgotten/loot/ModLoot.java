@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 public class ModLoot {
 
     // TODO: Flatkat this is probs not the correct table, no idea what its called
-    private static final Identifier SNIFFER_TABLE = new Identifier("minecraft:sniffer_digging");
+    private static final Identifier SNIFFER_TABLE = new Identifier("minecraft:gameplay/sniffer_digging");
 
     private static final Identifier SNIFFER_PHASE = new Identifier(AncientAndForgotten.MOD_ID, "sniffer_phase");
 
