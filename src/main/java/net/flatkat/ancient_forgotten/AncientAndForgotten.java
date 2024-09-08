@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.flatkat.ancient_forgotten.block.ModBlocks;
 import net.flatkat.ancient_forgotten.item.ModItemGroups;
 import net.flatkat.ancient_forgotten.item.ModItems;
+import net.flatkat.ancient_forgotten.loot.ModLoot;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -26,5 +27,6 @@ public class AncientAndForgotten implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModLoot.init();
 	}
 }
